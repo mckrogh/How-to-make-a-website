@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ViggoApps</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"> <!-- The link element connects other files to an HTML document, such as CSS or JavaScript files -->
+	<link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css"> <!-- main.css will override normalize.css -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header> <!-- Part of the sites contents -->
+		<a href="index.html" id="logo"> <!-- Links a create with the a-tag also known as anchor tags. href is short for hyperlink reference. -->
+			<h1>Morten Larsen</h1>
+			<h2>Webdeveloper</h2>
+		</a>
+		<nav> <!-- Use nav to make navigation on a page -->
+			<ul>
+				<li><a href="index.html">Portfolio</a></li> <!-- Selects any HTML element that contains a matching class attribute.-->
+				<li><a href="about.html" class="selected">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav> 
+	</header>
+	<div id="wrapper"> <!-- ID Selector - CSS selector that selects a single element based on its ID attribute. -->
+		<section> <!-- Break up a page into logical groups of information -->
+			<img src="img/morten.jpg" alt="Photograhp of Morten Larsen" class="profile-photo">
+			<h3>About</h3>
+			<p>Hi, I'm Morten Larsen, this is my webdeveloper portfolio, where I will try to track my process learning with teamtreehouse. My goal is to become a webdeveloper. Ressources I will use will school, courses and the frontend developer techdegree program. At my disposal will also be teamtreehouse tracks and library. I will supplement my knowledge further with all the ressources on the internet I find relevant</p>
+			<p>Topics I want to master is: 
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>Wordpress</li>
+					<li>PHP</li>
+					<li>Design & Usability</li>
+				</ul>
+			If you'd like to learn more about my work, visit my portfolio.</p>
+		</section>
+		<footer> <!-- Compliment to the header element -->
+			<a href="http://Twitter.com"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+			<a href="http://Facebook.com"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+			<p>&copy; 2017 ViggoApps</p>
+		</footer>
+	</div>
+</body>
+</html>

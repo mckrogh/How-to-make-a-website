@@ -1,0 +1,246 @@
+/********************
+ General
+ ********************/
+body {
+	font-family: 'Open sans', sans-serif;
+}
+
+#wrapper {
+	max-width: 940px; /*Sets the maximum width of an element. Accepts any CSS length unit.*/
+	margin: 0 auto; /*Sets the space around the exterior four sides of an element. Accepts any CSS length unit.*/
+	padding: 0 5%; /*Sets the space on the interior four sides of an element. Accepts any CSS length unit.*/
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%; /* This makes the image fluid as we are using percentages */
+}
+
+h3 {
+	margin: 0 0 1em 0; /*Little bit of spacing at the bottom*/
+}
+
+
+
+header {
+	float: left; /*For desktop*/
+	margin: 0 0 30px 0; /* Removes the white space ind our header */
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+
+
+#logo {
+	text-align: center;;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em; /* Unit for size - ems is relative  - 1em is normally 16px pr default */
+	font-weight: normal; /* This will unbold our headline, which are bold pr default */
+	line-height: 0.8; /* Line of space between each line of text */
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -0.5px 0 0; /* first top, second left/right, third bottom */
+	font-weight: normal;
+}
+
+
+
+/********************
+ Navigation
+ ********************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+
+
+/********************
+ Footer
+ ********************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both; /* The clear property specifies whether an element can be adjacent to floated elements or if it should be moved down and "clear" any floated elements. */
+	padding-top: 50px;
+	color: #ccc;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
+/********************
+ Page: Portfolio
+ ********************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left; /* Allows us to position our elements speciel ways. Then text floats around our elements*/
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #bdc3c7;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75;
+	color: #bdc3c7;
+}
+
+
+
+/********************
+ Page: About;
+ ********************/
+
+.profile-photo { /* By default images are displayed inline*/
+	display: block; /* Will allow us to use automargin to center the element on the page */
+	max-width: 150px; 
+	margin: 0 auto 30px; /* Margin autotechniq to autocenter element */
+	border-radius: 5%; /* Allows us to make rounded corners*/
+}
+
+
+
+/********************
+ Page: Contact;
+ ********************/
+
+.contact-info {
+	list-style: none; /* removes bulletpoints */
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em; /* decreasing fontsize from default */
+}
+
+.contact-info a { /* For all anchor elements in contact page */
+	display: block; /* This means that our elements will take up space */
+	min-height: 20px;
+	background-repeat: no-repeat; /* so we only have one image and not repeating */
+	background-size: 20px 20px; /* resize our background-images */
+	padding: 0 0 0 30px; /* extra space on our image */
+	margin: 0 0 10px;
+}
+
+
+/* Inserting icons as image for each list item */
+.contact-info li.phone a { /* a list item with a class phone on it. Here we are selecting contact-info, to li.iphone to a */
+	background-image: url('../img/phone.png'); 
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+
+
+ /********************
+ Colors
+ ********************/
+
+ /* site body */
+body {
+	background-color: #ffffff;
+	color: #999999;
+}
+
+/* green header */
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+/* nav background mobile devices */
+nav {
+	background: #599a68;
+}
+
+/* logo text */
+h1, h2 {
+	color: #ffffff;
+}
+
+/* Links */
+a {
+	color: #6ab47b
+}
+
+/* nav link */
+nav a, nav a:visited { /*nav a:visited is a pseudo-Class which means: Dynamic selectors that change based on user interaction with the browser, such as hovering over a link, for example.*/
+	color: #ffffff
+}
+
+/* selected nav link*/
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
